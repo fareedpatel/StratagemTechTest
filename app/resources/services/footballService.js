@@ -19,9 +19,9 @@ app.controller("footballoddsCtrl", function ($scope, footballService)
 
 {
   var promise = footballService.getTeams();
-  promise.then(function(data)
+  promise.then(function (data)
   {
-    $scope.teams = data;
+    $scope.teams = data.data;
     console.log($scope.teams);
   });
 });
