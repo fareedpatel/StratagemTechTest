@@ -30,6 +30,8 @@
 
   <div class="mainContainer" data-ng-app="FootballOddsApp">
     <h1>Premiership outright winners odds - 2017</h1>
+
+    <input type="text" data-ng-model="searchTeam">
       <div data-ng-controller="footballoddsCtrl">
         <table class='table table-striped'>
           <thead>
@@ -42,7 +44,8 @@
             </tr>
           </thead>
           <tbody>
-            <tr data-ng-repeat="team in teams">
+            <tr data-ng-repeat="team in teams | 
+            filter:searchTeam">
               <td>{{ team.id }}</td>
               <td>{{team.team}}</td>
             <td>
@@ -50,9 +53,16 @@
                 <p>{{value}}</p>
               </ul>
             </td>
-              <!-- <td>{{ team.betfair }}</td> -->
-              <td>{{ team.PaddyPower }}</td>
-              <td>{{ team.SkyBet }}</td>
+              <td>
+                <ul ng-repeat="(key, value) in team.PaddyPower[0]">
+                  <p>{{value}}</p>
+                </ul>
+              </td>
+              <td>
+                <ul ng-repeat="(key, value) in team.SkyBet[0]">
+                  <p>{{value}}</p>
+                </ul>
+              </td>
             </tr>
           </tbody>
         </table>
