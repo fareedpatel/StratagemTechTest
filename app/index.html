@@ -36,14 +36,23 @@
             <tr>
               <th>id</th>
               <th>team</th>
-              <th>odds</th>
+              <th>betfair</th>
+              <th>PaddyPower</th>
+              <th>SkyBet</th>
             </tr>
           </thead>
           <tbody>
             <tr data-ng-repeat="team in teams">
               <td>{{ team.id }}</td>
-              <td>{{ team.team }}</td>
-              <td>{{ team.odds }}</td>
+              <td>{{team.team}}</td>
+            <td>
+              <ul ng-repeat="(key, value) in team.betfair[0]">
+                <p>{{value}}</p>
+              </ul>
+            </td>
+              <!-- <td>{{ team.betfair }}</td> -->
+              <td>{{ team.PaddyPower }}</td>
+              <td>{{ team.SkyBet }}</td>
             </tr>
           </tbody>
         </table>

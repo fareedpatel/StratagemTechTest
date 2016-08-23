@@ -2,416 +2,356 @@
   {
       "id": "001",
       "team": "mancity",
-      "odds": 
-        {
-        "betfair": 
+      "betfair": 
                   [
                     { "odds": 2.68 },
                     { "backodds": 2.7 },
                     { "layodds": 2.72 }
                   ],
-          "PaddyPower": 
-                  [
-                    { "odds": 2.75 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 2.63 }
-                  ]
-      }
+      "PaddyPower": 
+              [
+                { "odds": 2.75 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 2.63 }
+              ]
   },
   {
     "id": "002",
     "team": "manutd",
-    "odds": 
-      {
-      "betfair": 
-                [
-                  { "odds": 4.1 },
-                  { "backodds": 4.2 },
-                  { "layodds": 4.3 }
-                ],
-        "PaddyPower": 
-                [
-                  { "odds": 3.5 }
-                ],
-        "SkyBet": 
-                [
-                  { "odds": 3.25 }
-                ]
-    }
+    "betfair": 
+            [
+              { "odds": 4.1 },
+              { "backodds": 4.2 },
+              { "layodds": 4.3 }
+            ],
+    "PaddyPower": 
+            [
+              { "odds": 3.5 }
+            ],
+    "SkyBet": 
+            [
+              { "odds": 3.25 }
+            ]
   },
     {
       "id": "003",
       "team": "Chelsea",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 6.2 },
-                    { "backodds": 6.4 },
-                    { "layodds": 6.6 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 6.5 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 5 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 6.2 },
+                  { "backodds": 6.4 },
+                  { "layodds": 6.6 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 6.5 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 5 }
+              ]
   },
   {
       "id": "004",
       "team": "Arsenal",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 11.5 },
-                    { "backodds": 12 },
-                    { "layodds": 12.5 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 12 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 10 }
-                  ]
-      }
+      "betfair": 
+              [
+                { "odds": 11.5 },
+                { "backodds": 12 },
+                { "layodds": 12.5 }
+              ],
+      "PaddyPower": 
+              [
+                { "odds": 12 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 10 }
+              ]
   },
     {
       "id": "005",
       "team": "Liverpool",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 13.5 },
-                    { "backodds": 14 },
-                    { "layodds": 14.5 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 12 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 13 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 13.5 },
+                  { "backodds": 14 },
+                  { "layodds": 14.5 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 12 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 13 }
+              ]
   },
       {
       "id": "006",
       "team": "Tottenham",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 16 },
-                    { "backodds": 16.5 },
-                    { "layodds": 17 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 13 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 15 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 16 },
+                  { "backodds": 16.5 },
+                  { "layodds": 17 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 13 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 15 }
+                ]
   },
-      {
-      "id": "007",
-      "team": "Leicester",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 70 },
-                    { "backodds": 75 },
-                    { "layodds": 85 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 51 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 51 }
-                  ]
-      }
+    {
+    "id": "007",
+    "team": "Leicester",
+    "betfair": 
+              [
+                { "odds": 70 },
+                { "backodds": 75 },
+                { "layodds": 85 }
+              ],
+    "PaddyPower": 
+            [
+              { "odds": 51 }
+            ],
+    "SkyBet": 
+            [
+              { "odds": 51 }
+            ]
   },
       {
       "id": "008",
       "team": "WestHam",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 120 },
-                    { "backodds": 130 },
-                    { "layodds": 170 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 101 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 251 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 120 },
+                  { "backodds": 130 },
+                  { "layodds": 170 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 101 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 251 }
+              ]
   },
      {
       "id": "009",
       "team": "Everton",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 120 },
-                    { "backodds": 130 },
-                    { "layodds": 150 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 101 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 151 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 120 },
+                  { "backodds": 130 },
+                  { "layodds": 150 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 101 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 151 }
+              ]
   },
     {
       "id": "010",
       "team": "Southampton",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 360 },
-                    { "backodds": 520 },
-                    { "layodds": 650 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 251 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 501 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 360 },
+                  { "backodds": 520 },
+                  { "layodds": 650 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 251 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 501 }
+              ]
   },
    {
       "id": "011",
       "team": "Swanswea",
-      "odds": 
-        {
-        "betfair": 
+      "betfair": 
                   [
                     { "odds": 440 },
                     { "backodds": 700 },
                     { "layodds": 980 }
                   ],
-          "PaddyPower": 
-                  [
-                    { "odds": 1001 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 1001 }
-                  ]
-      }
+      "PaddyPower": 
+              [
+                { "odds": 1001 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 1001 }
+              ]
   },
    {
       "id": "012",
       "team": "Stoke",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 510 },
-                    { "backodds": 970 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 501 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 1001 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 510 },
+                  { "backodds": 970 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 501 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 1001 }
+              ]
   },
      {
       "id": "013",
       "team": "Sunderland",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 100 },
-                    { "backodds": 500 },
-                    { "layodds": 500 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 1001 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 1001 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 100 },
+                  { "backodds": 500 },
+                  { "layodds": 500 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 1001 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 1001 }
+              ]
   },
      {
       "id": "014",
       "team": "Watford",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 100 },
-                    { "backodds": 500 },
-                    { "layodds": 500 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 1001 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 1001 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 100 },
+                  { "backodds": 500 },
+                  { "layodds": 500 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 1001 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 1001 }
+              ]
   },
     {
       "id": "015",
       "team": "Crystal Palace",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 90 },
-                    { "backodds": 1000 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 501 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 1001 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 90 },
+                  { "backodds": 1000 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 501 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 1001 }
+              ]
   },
     {
       "id": "016",
       "team": "Middlesbrough",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 510 },
-                    { "backodds": 530 },
-                    { "layodds": 860 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 1001 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 751 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 510 },
+                  { "backodds": 530 },
+                  { "layodds": 860 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 1001 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 751 }
+              ]
   },
     {
       "id": "017",
       "team": "Burnley",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 750 },
-                    { "backodds": 1000 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 1001 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 1001 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 750 },
+                  { "backodds": 1000 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 1001 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 1001 }
+              ]
   },
   {
       "id": "018",
       "team": "West Brom",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 750 },
-                    { "backodds": 1000 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 1001 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 1001 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 750 },
+                  { "backodds": 1000 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 1001 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 1001 }
+              ]
   },
   {
       "id": "019",
       "team": "Bournemouth",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 810 },
-                    { "backodds": 1000 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 1001 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 1001 }
-                  ]
-      }
+      "betfair": 
+                [
+                  { "odds": 810 },
+                  { "backodds": 1000 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 1001 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 1001 }
+              ]
   },
     {
       "id": "020",
       "team": "Hull",
-      "odds": 
-        {
-        "betfair": 
-                  [
-                    { "odds": 500 },
-                    { "backodds": 510 },
-                    { "layodds": 940 }
-                  ],
-          "PaddyPower": 
-                  [
-                    { "odds": 751 }
-                  ],
-          "SkyBet": 
-                  [
-                    { "odds": 751 }
-                  ]
-      }
-  }
+      "betfair": 
+                [
+                  { "odds": 500 },
+                  { "backodds": 510 },
+                  { "layodds": 940 }
+                ],
+      "PaddyPower": 
+              [
+                { "odds": 751 }
+              ],
+      "SkyBet": 
+              [
+                { "odds": 751 }
+              ]
+    }
 ]
