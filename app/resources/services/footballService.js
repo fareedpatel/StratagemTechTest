@@ -15,13 +15,15 @@ app.service("footballService", function($http, $q)
   };
 });
 
-app.controller("footballoddsCtrl", function ($scope, footballService)
-
-{
+app.controller("footballoddsCtrl", function ($scope, footballService){
   var promise = footballService.getTeams();
-  promise.then(function (data)
-  {
+  promise.then(function (data) {
     $scope.teams = data.data;
     console.log($scope.teams);
-  });
+    });
+
+  $scope.sortType     = 'team'; // set the default sort type
+  $scope.sortReverse  = false;  // set the default sort order
+  $scope.searchOdds   = '';     // set the default search/filter term
+
 });
