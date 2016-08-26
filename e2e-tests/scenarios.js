@@ -11,7 +11,7 @@ describe('my app', function() {
   });
 
 
-  describe('view1', function() {
+  describe('Premiership outright winner odds', function() {
 
     beforeEach(function() {
       browser.get('index.html');
@@ -25,7 +25,7 @@ describe('my app', function() {
     });
 
     it('should count all the teams', function(){
-      expect(element.all(by.repeater('team in teams')).count()).toEqual(20);
+      var list = expect(element.all(by.repeater('team in teams')).count()).toEqual(20);
     });
 
     it ('should have all the odds from Betfair', function(){
