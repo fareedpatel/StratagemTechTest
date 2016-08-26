@@ -10,7 +10,9 @@
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
   <link rel="stylesheet" href="app.css">
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 </head>
+<body>
   <div class="mainContainer" data-ng-app="FootballOddsApp">
     <h1>Premiership outright winners odds - 2017</h1>
     Search by Team:
@@ -42,7 +44,7 @@
               <th>
                 <a href="#" ng-click="sortType = 'SkyBet[0].odds'; sortReverse = !sortReverse">
                 SkyBet</a>
-                <span ng-show="sortType == 'SkyBet[0].odds'" class="fa fa-caret-down"></span></th></th>
+                <span ng-show="sortType == 'SkyBet[0].odds'" class="fa fa-caret-down"></span></th>
               </th>
           </tr>
         </thead>
@@ -50,7 +52,7 @@
             <tr data-ng-repeat="team in teams | filter:searchTeam | orderBy:sortType:sortReverse" >
               <td>{{ team.id }}</td>
               <td>{{team.team}}</td>
-              <td><ul>{{team.betfair[0].odds}}</ul></td>
+              <td><span title="{{'odds:' + team.betfair[0].odds + ',  backodds:' + team.betfair[1].backodds + ',  layodds:' + team.betfair[2].layodds}}" data-toggle="tooltip" data-placement="top" tooltip>{{team.betfair[0].odds}}</span></td>
               <td><ul>{{team.PaddyPower[0].odds}}</ul></td>
               <td><ul>{{team.SkyBet[0].odds}}</ul></td>
             </tr>
@@ -66,5 +68,12 @@
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
   <script src="resources/services/footballService.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+  </script>
 </body>
 </html>

@@ -19,11 +19,26 @@ app.controller("footballoddsCtrl", function ($scope, footballService){
   var promise = footballService.getTeams();
   promise.then(function (data) {
     $scope.teams = data.data;
-    console.log($scope.teams);
     });
 
   $scope.sortType     = 'name'; // set the default sort type
   $scope.sortReverse  = false;  // set the default sort order
   $scope.searchOdds   = '';     // set the default search/filter term
 
+});
+
+
+app.directive('tooltip', function(){
+    return {
+        restrict: 'A',
+        link: function(scope, element, attrs){
+            $(element).hover(function(){
+                // on mouseenter
+                $(element).tooltip('show');
+            }, function(){
+                // on mouseleave
+                $(element).tooltip('hide');
+            });
+        }
+    };
 });
