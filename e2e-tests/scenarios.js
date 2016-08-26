@@ -5,38 +5,33 @@
 describe('my app', function() {
 
 
-  it('should automatically redirect to /view1 when location hash/fragment is empty', function() {
+  it('should automatically redirect to the application when location hash/fragment is empty', function() {
     browser.get('index.html');
-    expect(browser.getLocationAbsUrl()).toMatch("/view1");
+    expect(browser.getLocationAbsUrl()).toMatch("");
   });
 
 
   describe('view1', function() {
 
     beforeEach(function() {
-      browser.get('index.html#!/view1');
+      browser.get('index.html');
     });
 
 
-    it('should render view1 when user navigates to /view1', function() {
-      expect(element.all(by.css('[ng-view] p')).first().getText()).
-        toMatch(/partial for view 1/);
+    it('should have; ID, team, Betfair', function() {
+        expect(by.model('team.id')).toMatch(/id/);
+        expect(by.model('team.team')).toMatch(/team/);
+        expect(by.model('team.betfair')).toMatch(/betfair/);
     });
 
-  });
-
-
-  describe('view2', function() {
-
-    beforeEach(function() {
-      browser.get('index.html#!/view2');
+    it('should count all the teams', function(){
+      expect(element.all(by.repeater('team in teams')).count()).toEqual(20);
     });
 
-
-    it('should render view2 when user navigates to /view2', function() {
-      expect(element.all(by.css('[ng-view] p')).first().getText()).
-        toMatch(/partial for view 2/);
+    it ('should have all the odds from Betfair', function(){
+      var odds = element.all(by.repeater('team.betfair'));
     });
 
   });
+
 });
