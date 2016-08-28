@@ -17,7 +17,6 @@ describe('my app', function() {
       browser.get('index.html');
     });
 
-
     it('should have; ID, team, Betfair', function() {
         expect(by.model('team.id')).toMatch(/id/);
         expect(by.model('team.team')).toMatch(/team/);
@@ -31,6 +30,22 @@ describe('my app', function() {
     it ('should have all the odds from Betfair', function(){
       var odds = element.all(by.repeater('team.betfair'));
     });
+
+    it('should search by team name', function(){
+      element(by.model('searchTeam')).sendKeys('test');
+      expect(element.all(by.repeater('team in teams')).count()).toEqual(0);
+    });
+
+    it('should sort by team name by alphabetical order' ,function(){
+    var sort = element.all(by.css('.teamHeading')).first().click();
+      setTimeout(function(){
+        expect(true).toBe(true);
+
+      },500);
+    });
+    
+
+
 
   });
 

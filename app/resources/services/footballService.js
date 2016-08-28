@@ -16,15 +16,16 @@ app.service("footballService", function($http, $q)
 });
 
 app.controller("footballoddsCtrl", function ($scope, footballService){
-  var promise = footballService.getTeams();
-  promise.then(function (data) {
-    $scope.teams = data.data;
-    });
-
-  $scope.sortType     = 'name'; // set the default sort type
-  $scope.sortReverse  = false;  // set the default sort order
-  $scope.searchOdds   = '';     // set the default search/filter term
-
+  $scope.getData = function () {
+    var promise = footballService.getTeams();
+    promise.then(function (data) {
+      $scope.teams = data.data;
+      });
+};
+    $scope.sortType     = 'name'; // set the default sort type
+    $scope.sortReverse  = false;  // set the default sort order
+    $scope.searchOdds   = '';     // set the default search/filter term
+    $scope.getData();
 });
 
 
