@@ -40,13 +40,15 @@ describe('my app', function() {
     var sort = element.all(by.css('.teamHeading')).first().click();
       setTimeout(function(){
         expect(true).toBe(true);
-
       },500);
+    var row = element.all(by.repeater('team in teams')).first();
+    var cells = row.all(by.tagName('td'));
+
+    var cellTexts = cells.map(function (elm) {
+        return elm.getText();
     });
-    
-
-
-
+    expect(cellTexts).toEqual(["008", "WestHam", "120", "101", "251"]);
+    });
   });
 
 });
